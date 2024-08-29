@@ -1,0 +1,3 @@
+Options -Indexes
+RewriteCond %{HTTP_HOST} ^www\.instaxam\.in$
+RewriteRule ^/?$ "http\:\/\/instaxam\.in\/" [R=301,L]

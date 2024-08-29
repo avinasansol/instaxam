@@ -1,0 +1,48 @@
+.result-row {
+	width: 100%;
+	display: table-row;
+	text-align:center;
+	background:#00FF00;
+}
+.result-col1 {
+	display: table-cell; padding: 20px 10px 50px 0px; white-space:nowrap;
+}
+.result-col2 {
+	display: table-cell; padding: 20px 0px 50px 10px; white-space:nowrap;
+}
+.tables .load-more {
+	width:100%;
+	text-align:center;
+	padding-top:10px;
+}
+.load-more button {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 4px;
+    width: 40%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #fff;
+    border: 2px solid #535ba0;
+    transition: all 0.5s;
+    background-color: rgba(83,91,160,1);
+	cursor:pointer;
+	white-space:nowrap;
+}
+.load-more button:hover {
+    color: #535ba0;
+    background-color: rgba(83,91,160,0.25);
+}
+.resultSol {
+	background:none; margin-bottom:-30px;
+}
+.resultSol .resultSolTR {
+	background:none;
+}
+@media screen and (max-width: 660px) {
+	.test-desc {
+		display:none;
+	}
+}

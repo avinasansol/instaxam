@@ -1,0 +1,36 @@
+#history-table h2 {
+	margin-top:-80px;
+	font-size:18px;
+	font-weight:bold;
+	margin-bottom:25px;
+}
+#history-table table {
+	font-size:14px;
+	padding-bottom: 130px;
+}
+#history-table table thead {
+	background:#e7e7e7;
+}
+#history-table table thead tr th {
+	padding-top:20px;
+}
+#history-table button {
+	font-size:12px;
+	padding:3px;
+	white-space:nowrap;
+}
+@media screen and (max-width: 845px) {
+	#history-table h2 {
+        margin-top: 60px;
+	}
+}
+@media screen and (max-width: 660px) {
+	.test-desc {
+		display:none;
+	}
+}
+@media screen and (max-width: 550px) {
+	#history-table button {
+		white-space:normal;
+	}
+}

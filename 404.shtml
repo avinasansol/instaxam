@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6 ielt8"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7 ielt8"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="The requested URL was not found on this server.">
+    <meta name="author" content="JhaAvinash">
+
+    <title>Error 404 Page Not Found</title>
+    <link rel="icon" type="image/png" href="https://www.instaxam.in/assets/images/favicon.ico">
+
+    <link rel="stylesheet" href="https://www.instaxam.in/assets/css/instaxam-style.css">
+    <link rel="stylesheet" type="text/css" href="https://www.instaxam.in/assets/css/login.css" />
+
+  </head>
+
+<body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+      <!-- Main -->
+        <div id="main">
+          <div class="inner">
+                        <!-- Header -->
+            <header id="header">
+              <div class="logo">
+                <a href="https://www.instaxam.in/index.php">Instaxam.In</a>
+              </div>
+            </header>
+								<div id="user-area">
+						<div id="user-msg" style="height:70px;">
+							<div style="height:30px;">
+								<form name="UserLogIn" method="post" action="forgot-password.php">
+									<input type="hidden" name="Operation" value="UserLogIn" />
+									<input type="hidden" name="CurrPage" value="forgot-password.php" />
+									<input type="text" placeholder="Email Id" required="" id="username" name="txtUsrId" value="" />
+									<input type="password" placeholder="Password" required="" id="password" name="txtPswd" />
+									<button type="submit" id="form-submit" class="button">Log In</button>
+								</form>
+							</div>
+														<div style="height:40px;">
+								<a href="https://www.instaxam.in/register.php">Sign Up</a>															</div>
+						</div>
+					</div>
+				
+					<section id="content">
+							<h2>Error 404 - Page Not Found</h2>
+The requested URL was not found on this server.
+<HR>
+					</section><!-- content -->
+
+          </div>
+		  
+		  		<!-- Footer -->
+		<footer id="footer">
+		  <p class="copyright">Copyright &copy; 2020 Instaxam.In<br />
+			Developed by <a rel="nofollow" href="https://www.facebook.com/avin.asansol">Jha Avinash</a> | 
+			<a href="#">About Us</a> | 
+			<a href="https://www.instaxam.in/sitemap.xml">Sitemap</a>
+		  </p>
+		</footer>
+				  
+        </div>
+		      <!-- Sidebar -->
+        <div id="sidebar">
+          <div class="inner">
+            <!-- Search Box -->
+            <section id="srch" class="alt">
+              <form method="get" action="search-result.php" onsubmit="return searchTest()">
+			  <table><tr>
+              	<td><input type="text" name="searchTxt" id="searchbox" placeholder="Search..." /></td>
+                <td><input type="submit" id="searchsub" value="" /></td>
+			  </tr></table>
+              </form>
+            </section>
+			<script type="text/javascript">
+			function searchTest(){
+				var searchText = $("#searchbox").val();
+				if(searchText == "") {
+					alert("Please enter some text to search.");
+					return false;
+				}
+				return true;
+			};
+			</script>
+			
+			<!-- Menu -->
+            <nav id="menu">
+              <ul>
+				<li><a href="https://www.instaxam.in/index.php">Home</a></li>
+                <li>
+                  <span class="opener">Browse Tests</span>
+                  <ul>
+                    <li><a href="https://www.instaxam.in/browse-test.php#most-famous">Most Famous</a></li>
+                    <li><a href="https://www.instaxam.in/browse-test.php#recently-added">Recently Added</a></li>
+                    <li><a href="https://www.instaxam.in/browse-test.php#test-by-creator">Search by Creator</a></li>
+                    <li><a href="https://www.instaxam.in/browse-test.php#test-category">Browse by Category</a></li>
+                  </ul>
+                </li>
+				              </ul>
+            </nav>
+			
+          </div>
+        </div>    </div>
+
+  <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/transition.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

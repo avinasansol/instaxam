@@ -1,0 +1,140 @@
+#test-category .container-fluid .row .col-md-12 ul {
+	list-style:disc;
+}
+#test-category .container-fluid .row .col-md-12 li {
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+#test-category .container-fluid .row .col-md-12 a {
+    display: inline-block;
+    height: 40px;
+    background-color: #e7e7e7;
+    text-align: center;
+    line-height: 40px;
+    padding: 0px 8px;
+    min-width: 40px;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: all 0.5s;
+    border: 2px solid #535ba0;
+    border-radius: 5px;
+}
+#test-category .container-fluid .row .col-md-12 a:hover {
+    background-color: #535ba0;
+    color: #fff;
+}
+#test-category {
+	margin-top:-80px;
+}
+#browse-category {
+	margin-top:-80px;
+	margin-bottom:120px;
+}
+#test-by-creator #creator-row {
+	display: table-row; width:100%;
+}
+#test-by-creator #creator-col1 {
+	display: table-cell; padding: 20px 10px 50px 0px; width:90%;
+}
+#test-by-creator #creator-col2 {
+	display: table-cell; padding: 20px 0px 50px 10px; width:10%; white-space:nowrap;
+}
+#test-by-creator #creator-col1 input {
+	float:left;
+	height: 30px;
+	font-size:12px;
+}
+#test-by-creator #creator-col2 button {
+	float:right;
+	cursor:pointer;
+}
+#statusRecent {
+	width:100%;
+	text-align:center;
+	height:0px;
+}
+#statusFamous {
+	width:100%;
+	text-align:center;
+	height:0px;
+}
+#statusBrowseCat {
+	width:100%;
+	text-align:center;
+	height:0px;
+}
+#statusCreatorList {
+	width:100%;
+	text-align:center;
+	height:0px;
+}
+.tables .load-more {
+	width:100%;
+	text-align:right;
+	padding-top:5px;
+}
+.load-more button {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 4px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #fff;
+    border: 2px solid #535ba0;
+    transition: all 0.5s;
+    background-color: rgba(83,91,160,1);
+	cursor:pointer;
+}
+.load-more button:hover {
+    color: #535ba0;
+    background-color: rgba(83,91,160,0.25);
+}
+#endRecentItems {
+	color:#000000;
+	padding-top:10px;
+	padding-bottom:0;
+	text-align:center;
+	font-weight:bold;
+}
+#endFamousItems {
+	color:#000000;
+	padding-top:10px;
+	padding-bottom:0;
+	text-align:center;
+	font-weight:bold;
+}
+#endBrowseCatItems {
+	color:#000000;
+	padding-top:10px;
+	padding-bottom:0;
+	text-align:center;
+	font-weight:bold;
+}
+#endCreatorList {
+	color:#000000;
+	padding-top:10px;
+	padding-bottom:0;
+	text-align:center;
+	font-weight:bold;
+}
+#endCreatorTestsItems {
+	color:#000000;
+	padding-top:10px;
+	padding-bottom:0;
+	text-align:center;
+	font-weight:bold;
+}
+#creatorRow {
+	padding-left:8px;
+	padding-right:8px;
+}
+#creatorRow  h2 {
+	font-size: 18px;
+	color: #000;
+	padding-bottom: 10px;
+	margin-bottom: 25px;
+}

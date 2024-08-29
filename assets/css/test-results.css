@@ -1,0 +1,54 @@
+#download-box {
+	margin-top:-70px;
+	width:100%;
+	text-align:center;
+}
+#result-table h2 {
+	margin-top:30px;
+	font-size:18px;
+	font-weight:bold;
+	margin-bottom:25px;
+}
+#result-table table {
+	font-size:14px;
+	padding-bottom: 130px;
+}
+#result-table table thead {
+	background:#e7e7e7;
+}
+#result-table table thead tr th {
+	padding-top:20px;
+	font-size:14px;
+}
+#result-table {
+	margin-top:0px;
+}
+#result-table h4 {
+	margin-top:30px;
+	margin-bottom:0px;
+}
+#result-table p {
+	margin-bottom:0px;
+	color:#000000;
+	padding-bottom:0;
+	font-size:14px;
+}
+.top-break-para {
+	padding-top:10px;
+	margin-top:10px;
+}
+@media screen and (max-width: 845px) {
+	#download-box {
+        margin-top: 40px;
+	}
+}
+@media screen and (max-width: 660px) {
+	.test-desc {
+		display:none;
+	}
+}
+@media screen and (max-width: 550px) {
+	#result-table button {
+		white-space:normal;
+	}
+}
